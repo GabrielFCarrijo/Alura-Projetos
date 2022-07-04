@@ -7,6 +7,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 
 import TDD.src.main.java.br.com.alura.tdd.modelo.Funcionario;
+import TDD.src.main.java.br.com.alura.tdd.service.BonusService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 

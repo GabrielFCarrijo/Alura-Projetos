@@ -7,6 +7,7 @@ import java.time.LocalDate;
 
 import TDD.src.main.java.br.com.alura.tdd.modelo.Desempenho;
 import TDD.src.main.java.br.com.alura.tdd.modelo.Funcionario;
+import TDD.src.main.java.br.com.alura.tdd.service.ReajusteService;
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;
 
