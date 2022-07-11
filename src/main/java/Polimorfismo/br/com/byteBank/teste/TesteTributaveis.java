@@ -1,3 +1,8 @@
+package Polimorfismo.br.com.byteBank.teste;
+
+import Polimorfismo.br.com.byteBank.modelo.CalculadorDeImposto;
+import Polimorfismo.br.com.byteBank.modelo.ContaCorrente;
+import Polimorfismo.br.com.byteBank.modelo.SeguroDeVida;
 
 public class TesteTributaveis {
 

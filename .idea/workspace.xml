@@ -4,72 +4,19 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="new projects">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pilha_Entendendo_Exceptions/Conexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Pilha_Entendendo_Exceptions/TesteConexao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/Conta.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/SaldoInsuficienteException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/TesteSaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/jarRepositories.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/uiDesigner.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/bytebank/.classpath" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/.classpath" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/bytebank/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/bytebank/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/.settings/org.eclipse.jdt.core.prefs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/bytebank/src/byteBank/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/src/byteBank/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/bytebank/src/byteBank/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/src/byteBank/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/bytebank/src/byteBank/CriaConta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/src/byteBank/CriaConta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/bytebank/src/byteBank/TestaBanco.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/src/byteBank/TestaBanco.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/bytebank/src/byteBank/TestaContaSemCliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/src/byteBank/TestaContaSemCliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/bytebank/src/byteBank/TestaMetodo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/src/byteBank/TestaMetodo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/CursoOrientadoAObjetos/bytebank/src/byteBank/TesteSacaNeagivo.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/src/byteBank/TesteSacaNeagivo.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/CalculadorDeImposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/CalculadorDeImposto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/Conta.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/SaldoInsuficienteException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/SeguroDeVida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/SeguroDeVida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/TesteContaException.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/TesteContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/TesteContas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/TesteTributaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/TesteTributaveis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/byteBankHerdadoConta/Tributavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/Tributavel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/Administrador.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/AutenticacaoUtil.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/Autenticavel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/Cliente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/ControleBonificacao.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/Designer.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/EditorVideo.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/Funcionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/Gerente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/SistemaInterno.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/TesteFuncionario.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/TesteGerente.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/TesteReferencias.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bin/TesteSistema.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/Administrador.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/AutenticacaoUtil.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/Autenticavel.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/Cliente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/ControleBonificacao.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/Designer.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/EditorVideo.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/Funcionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/Gerente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/SistemaInterno.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/TesteFuncionario.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/TesteGerente.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/TesteReferencias.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/src/TesteSistema.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TDD/src/test/java/br/com/alura/tdd/service/BonusServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDD/src/test/java/br/com/alura/tdd/service/BonusServiceTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TDD/src/test/java/br/com/alura/tdd/service/ReajusteServiceTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/TDD/src/test/java/br/com/alura/tdd/service/ReajusteServiceTest.java" afterDir="false" />
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="organize projects and finished pilha-java">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/CalculadorDeImposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/CalculadorDeImposto.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/Cliente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/Conta.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/ContaCorrente.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/ContaPoupanca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/SaldoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/SaldoInsuficienteException.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/SeguroDeVida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/SeguroDeVida.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/TesteContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/TesteContas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/TesteSaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/TesteSaca.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/TesteTributaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/TesteTributaveis.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/Tributavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/Tributavel.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -186,7 +133,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656781372938</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="organize projects and finished pilha-java">
+      <created>1656902885085</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1656902885085</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -202,6 +156,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new projects" />
-    <option name="LAST_COMMIT_MESSAGE" value="new projects" />
+    <MESSAGE value="organize projects and finished pilha-java" />
+    <option name="LAST_COMMIT_MESSAGE" value="organize projects and finished pilha-java" />
   </component>
 </project>

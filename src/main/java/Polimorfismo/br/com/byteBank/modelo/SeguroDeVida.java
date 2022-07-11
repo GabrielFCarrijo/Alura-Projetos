@@ -1,3 +1,4 @@
+package Polimorfismo.br.com.byteBank.modelo;
 
 public class SeguroDeVida implements Tributavel {
 
