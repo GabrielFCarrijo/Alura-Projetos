@@ -4,19 +4,22 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="organize projects and finished pilha-java">
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: organizate packages  and project">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/especial/ContaEspecial.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/CalculadorDeImposto.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/CalculadorDeImposto.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/ContaCorrente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/ContaPoupanca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/ContaPoupanca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/SaldoInsuficienteException.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/SaldoInsuficienteException.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/SeguroDeVida.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/SeguroDeVida.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/TesteContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/TesteContas.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/TesteSaca.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/TesteSaca.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/TesteTributaveis.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/TesteTributaveis.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/bytebank-herdado/bytebank-herdado-conta/src/Tributavel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/Tributavel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteContas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteContas.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/CalculadorDeImposto.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Cliente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Conta.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ContaCorrente.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/ContaPoupanca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Pilha_Entendendo_Exceptions/Conexao.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Pilha_Entendendo_Exceptions/Conexao.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SaldoInsuficienteException.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SeguroDeVida.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TesteContas.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TesteSaca.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/TesteTributaveis.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Tributavel.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,7 +72,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Pilha_Entendendo_Exceptions.TesteConexao">
+  <component name="RunManager" selected="Application.teste">
     <configuration name="Pilha_Entendendo_Exceptions.TesteConexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pilha_Entendendo_Exceptions.TesteConexao" />
       <module name="Alura-Projetos-Java" />
@@ -103,8 +106,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste" />
+      <module name="Alura-Projetos-Java" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.teste" />
         <item itemvalue="Application.Pilha_Entendendo_Exceptions.TesteConexao" />
         <item itemvalue="Application.TesteContaException" />
       </list>
@@ -140,7 +151,14 @@
       <option name="project" value="LOCAL" />
       <updated>1656902885085</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="refactor: organizate packages  and project">
+      <created>1657505711006</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1657505711006</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -157,6 +175,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new projects" />
     <MESSAGE value="organize projects and finished pilha-java" />
-    <option name="LAST_COMMIT_MESSAGE" value="organize projects and finished pilha-java" />
+    <MESSAGE value="refactor: organizate packages  and project" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: organizate packages  and project" />
   </component>
 </project>
