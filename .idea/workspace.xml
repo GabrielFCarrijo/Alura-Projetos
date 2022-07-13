@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: JavaDoc">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteString.java" afterDir="false" />
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: java.lang">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteToString.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Conta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteString">
+  <component name="RunManager" selected="Application.TesteToString">
     <configuration name="Pilha_Entendendo_Exceptions.TesteConexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Pilha_Entendendo_Exceptions.TesteConexao" />
       <module name="Alura-Projetos-Java" />
@@ -87,12 +88,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteContaException" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.byteBankHerdadoConta.TesteContaException" />
+    <configuration name="TesteString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteString" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polimorfismo.byteBankHerdadoConta.*" />
+          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -100,8 +101,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteString" />
+    <configuration name="TesteToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteToString" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
@@ -122,11 +123,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteToString" />
         <item itemvalue="Application.TesteString" />
         <item itemvalue="Application.Polimorfismo.br.com.byteBank.teste.TesteContas" />
         <item itemvalue="Application.teste" />
         <item itemvalue="Application.Pilha_Entendendo_Exceptions.TesteConexao" />
-        <item itemvalue="Application.TesteContaException" />
       </list>
     </recent_temporary>
   </component>
@@ -181,7 +182,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657658478076</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="refactor: java.lang">
+      <created>1657739074577</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1657739074577</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -201,6 +209,7 @@
     <MESSAGE value="refactor: organizate packages  and project" />
     <MESSAGE value="refactor: modificadores de acesso" />
     <MESSAGE value="refactor: JavaDoc" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: JavaDoc" />
+    <MESSAGE value="refactor: java.lang" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: java.lang" />
   </component>
 </project>

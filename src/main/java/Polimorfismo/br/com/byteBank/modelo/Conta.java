@@ -4,7 +4,6 @@ package Polimorfismo.br.com.byteBank.modelo;
  * Classe representa a moldura de uma conta
  *
  * @author Gabriel Carrijo
- *
  */
 
 public abstract class Conta {
@@ -16,11 +15,11 @@ public abstract class Conta {
     private static int total = 0;
 
     /**
-    * Construtor para inicializar objeto conta
+     * Construtor para inicializar objeto conta
      *
      * @param agencia
      * @param numero
-    */
+     */
 
     public Conta(int agencia, int numero) {
         Conta.total++;
@@ -36,7 +35,7 @@ public abstract class Conta {
     /**
      * Valor precisa ser maior que o saldo
      *
-     *@param valor
+     * @param valor
      * @throws SaldoInsuficienteException
      */
 
@@ -94,4 +93,8 @@ public abstract class Conta {
         return Conta.total;
     }
 
+    @Override
+    public String toString() {
+        return "Numero: " + this.numero + ", Agencia: " + this.agencia;
+    }
 }
