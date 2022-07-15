@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: java.lang">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteToString.java" afterDir="false" />
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: toString, Object, String">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteArrayPrimitivos.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Conta.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,13 +60,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteToString">
-    <configuration name="Pilha_Entendendo_Exceptions.TesteConexao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Pilha_Entendendo_Exceptions.TesteConexao" />
+  <component name="RunManager" selected="Application.TesteArrayPrimitivos">
+    <configuration name="Polimorfismo.br.com.byteBank.teste.TesteContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteContas" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,8 +74,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Polimorfismo.br.com.byteBank.teste.TesteContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteContas" />
+    <configuration name="TesteArrayPrimitivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteArrayPrimitivos" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
@@ -123,11 +122,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteArrayPrimitivos" />
         <item itemvalue="Application.TesteToString" />
         <item itemvalue="Application.TesteString" />
         <item itemvalue="Application.Polimorfismo.br.com.byteBank.teste.TesteContas" />
         <item itemvalue="Application.teste" />
-        <item itemvalue="Application.Pilha_Entendendo_Exceptions.TesteConexao" />
       </list>
     </recent_temporary>
   </component>
@@ -189,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657739074577</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="refactor: toString, Object, String">
+      <created>1657747617710</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1657747617710</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -210,6 +216,7 @@
     <MESSAGE value="refactor: modificadores de acesso" />
     <MESSAGE value="refactor: JavaDoc" />
     <MESSAGE value="refactor: java.lang" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: java.lang" />
+    <MESSAGE value="refactor: toString, Object, String" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: toString, Object, String" />
   </component>
 </project>
