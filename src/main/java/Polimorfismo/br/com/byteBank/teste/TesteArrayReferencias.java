@@ -1,19 +1,27 @@
 package Polimorfismo.br.com.byteBank.teste;
 
+import Polimorfismo.br.com.byteBank.modelo.Conta;
+import Polimorfismo.br.com.byteBank.modelo.ContaCorrente;
+import Polimorfismo.br.com.byteBank.modelo.ContaPoupanca;
+
 public class TesteArrayReferencias {
 
     public static void main(String[] args) {
 
-        int[] idades = new int[5];
 
-        for (int i = 0; i < idades.length; i++){
+        Conta[] contas = new Conta[5];
 
-            idades[i] = i*i;
-        }
+        ContaCorrente cc1 = new ContaCorrente(22, 11);
+        contas[0] = cc1;
 
-        for (int i = 0; i < idades.length; i++){
+        ContaPoupanca cc2 = new ContaPoupanca(22, 22);
+        contas[1] = cc2;
 
-            System.out.println(idades[i]);
-        }
+        ContaCorrente ref = (ContaCorrente) contas[0];
+        System.out.println(ref.getNumero());
+
+        System.out.println(contas[1].getNumero());
+
+
     }
 }
