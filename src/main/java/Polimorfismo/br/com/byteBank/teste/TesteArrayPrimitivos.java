@@ -1,19 +1,20 @@
 package Polimorfismo.br.com.byteBank.teste;
 
+import Polimorfismo.br.com.byteBank.modelo.ContaCorrente;
+
 public class TesteArrayPrimitivos {
 
     public static void main(String[] args) {
 
-        int[] idades = new int[5];
 
-        for (int i = 0; i < idades.length; i++){
+        ContaCorrente[] contas = new ContaCorrente[5];
 
-            idades[i] = i*i;
-        }
+        ContaCorrente cc1 = new ContaCorrente(22, 11);
+        ContaCorrente cc2 = new ContaCorrente(22, 22);
 
-        for (int i = 0; i < idades.length; i++){
+        contas[0] = cc1;
+        contas[1] = cc2;
 
-            System.out.println(idades[i]);
-        }
+        System.out.println(contas[1].getNumero());
     }
 }
