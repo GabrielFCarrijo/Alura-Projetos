@@ -4,9 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: arrays">
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: casts, array de referencia">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/GuardadorDeContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/GuardadorDeReferencias.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteDeArrayContas.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteDeArrayDeReferencias.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteArrayReferencias.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteArrayReferencias.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,7 +41,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriel/Desktop/Alura-Projetos-Java/src/main/java/Polimorfismo/herdado/bytebank-herdado-conta/src/byteBank&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriel/Desktop/Prova Algoritimo- Place TI&quot;,
     &quot;project.structure.last.edited&quot;: &quot;Global Libraries&quot;,
     &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
     &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
@@ -60,21 +63,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteArrayReferencias">
-    <configuration name="Polimorfismo.br.com.byteBank.teste.TesteContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteContas" />
-      <module name="Alura-Projetos-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteArrayPrimitivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TesteDeArrayDeReferencias">
+    <configuration name="Polimorfismo.br.com.byteBank.teste.TesteArrayPrimitivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteArrayPrimitivos" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
@@ -87,8 +77,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteArrayReferencias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteArrayReferencias" />
+    <configuration name="TesteDeArrayContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteDeArrayContas" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
@@ -100,8 +90,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteString" />
+    <configuration name="TesteDeArrayDeReferencias" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteDeArrayDeReferencias" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
@@ -113,26 +103,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteToString" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteToString" />
+    <configuration name="test2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="test2" />
       <module name="Alura-Projetos-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="teste" />
+      <module name="Alura-Projetos-Java" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.TesteArrayReferencias" />
-        <item itemvalue="Application.TesteArrayPrimitivos" />
-        <item itemvalue="Application.TesteToString" />
-        <item itemvalue="Application.TesteString" />
-        <item itemvalue="Application.Polimorfismo.br.com.byteBank.teste.TesteContas" />
+        <item itemvalue="Application.TesteDeArrayDeReferencias" />
+        <item itemvalue="Application.TesteDeArrayContas" />
+        <item itemvalue="Application.test2" />
+        <item itemvalue="Application.teste" />
+        <item itemvalue="Application.Polimorfismo.br.com.byteBank.teste.TesteArrayPrimitivos" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +206,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657855138626</updated>
     </task>
-    <option name="localTasksCounter" value="11" />
+    <task id="LOCAL-00011" summary="refactor: casts, array de referencia">
+      <created>1657918018344</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1657918018344</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -238,6 +236,7 @@
     <MESSAGE value="refactor: java.lang" />
     <MESSAGE value="refactor: toString, Object, String" />
     <MESSAGE value="refactor: arrays" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: arrays" />
+    <MESSAGE value="refactor: casts, array de referencia" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: casts, array de referencia" />
   </component>
 </project>
