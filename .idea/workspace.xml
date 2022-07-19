@@ -4,11 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: casts, array de referencia">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/GuardadorDeContas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/GuardadorDeReferencias.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteDeArrayContas.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteDeArrayDeReferencias.java" afterDir="false" />
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: adapter para arrays">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -63,13 +60,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteDeArrayDeReferencias">
-    <configuration name="Polimorfismo.br.com.byteBank.teste.TesteArrayPrimitivos" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteArrayPrimitivos" />
+  <component name="RunManager" selected="Application.Teste">
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.Teste" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.*" />
+          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -119,11 +116,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Teste" />
         <item itemvalue="Application.TesteDeArrayDeReferencias" />
         <item itemvalue="Application.TesteDeArrayContas" />
         <item itemvalue="Application.test2" />
         <item itemvalue="Application.teste" />
-        <item itemvalue="Application.Polimorfismo.br.com.byteBank.teste.TesteArrayPrimitivos" />
       </list>
     </recent_temporary>
   </component>
@@ -213,7 +210,14 @@
       <option name="project" value="LOCAL" />
       <updated>1657918018344</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="refactor: adapter para arrays">
+      <created>1658200311538</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1658200311538</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -237,6 +241,7 @@
     <MESSAGE value="refactor: toString, Object, String" />
     <MESSAGE value="refactor: arrays" />
     <MESSAGE value="refactor: casts, array de referencia" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: casts, array de referencia" />
+    <MESSAGE value="refactor: adapter para arrays" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: adapter para arrays" />
   </component>
 </project>
