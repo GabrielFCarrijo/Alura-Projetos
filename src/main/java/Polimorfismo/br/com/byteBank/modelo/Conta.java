@@ -93,6 +93,17 @@ public abstract class Conta {
         return Conta.total;
     }
 
+    public boolean igual(Object ref) {
+
+        Conta outra = (Conta) ref;
+
+        if (outra.getNumero() != this.getNumero() && outra.getAgencia() != this.getAgencia()) {
+            return false;
+        }
+
+        return true;
+    }
+
     @Override
     public String toString() {
         return "Numero: " + this.numero + ", Agencia: " + this.agencia;

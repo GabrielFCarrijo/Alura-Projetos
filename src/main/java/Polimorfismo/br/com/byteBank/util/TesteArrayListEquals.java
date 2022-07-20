@@ -5,11 +5,11 @@ import Polimorfismo.br.com.byteBank.modelo.ContaCorrente;
 
 import java.util.ArrayList;
 
-public class Teste {
+public class TesteArrayListEquals {
 
     public static void main(String[] args) {
 
-        ArrayList list = new ArrayList();
+        ArrayList<Conta> list = new ArrayList();
 
         Conta cc = new ContaCorrente(22, 11);
         list.add(cc);
@@ -17,22 +17,19 @@ public class Teste {
         Conta cc2 = new ContaCorrente(22, 31);
         list.add(cc2);
 
-        System.out.println(list.size());
-        Conta ref = (Conta) list.get(0);
-        System.out.println(ref.getNumero());
-
-        list.remove(0);
-
         Conta cc3 = new ContaCorrente(22, 31);
-        list.add(cc3);
+        boolean exist = list.contains(cc3);
 
-        for (int i = 0; i < list.size(); i++){
+        System.out.println(exist);
 
-            System.out.println(list.get(i));
+        for (Conta conta : list) {
+            if (conta.igual(cc3)){
+
+                System.out.println("Já Tenho essa conta");
+            }
         }
 
-        for (Object o : list){
-            System.out.println(o);
-        }
+
+
     }
 }
