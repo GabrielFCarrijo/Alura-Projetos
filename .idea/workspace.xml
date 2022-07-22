@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: arrays list">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/TesteArrayListEquals.java" afterDir="false" />
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: metodo equals">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/Teste.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/TesteArrayList.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -232,7 +230,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658200795703</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="refactor: metodo equals">
+      <created>1658332182298</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1658332182298</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -258,6 +263,7 @@
     <MESSAGE value="refactor: casts, array de referencia" />
     <MESSAGE value="refactor: adapter para arrays" />
     <MESSAGE value="refactor: arrays list" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: arrays list" />
+    <MESSAGE value="refactor: metodo equals" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: metodo equals" />
   </component>
 </project>
