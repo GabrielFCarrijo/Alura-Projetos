@@ -4,9 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: autoboxing">
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: metodos da classe integer">
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/TesteOutrosWappers.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/Teste.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/TesteWrapperInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,21 +61,8 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Teste">
-    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.Teste" />
-      <module name="Alura-Projetos-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Application.TesteOutrosWappers">
+    <configuration name="Polimorfismo.br.com.byteBank.util.TesteArrayList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.TesteArrayList" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
@@ -87,25 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteArrayListEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+    <configuration name="Polimorfismo.br.com.byteBank.util.TesteArrayListEquals" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.TesteArrayListEquals" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Polimorfismo.br.com.byteBank.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TesteDeArrayContas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteDeArrayContas" />
-      <module name="Alura-Projetos-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -126,13 +101,39 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteOutrosWappers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.TesteOutrosWappers" />
+      <module name="Alura-Projetos-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteWrapperInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.TesteWrapperInteger" />
+      <module name="Alura-Projetos-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.util.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Teste" />
-        <item itemvalue="Application.TesteArrayListEquals" />
-        <item itemvalue="Application.TesteArrayList" />
+        <item itemvalue="Application.TesteOutrosWappers" />
+        <item itemvalue="Application.TesteWrapperInteger" />
+        <item itemvalue="Application.Polimorfismo.br.com.byteBank.util.TesteArrayListEquals" />
+        <item itemvalue="Application.Polimorfismo.br.com.byteBank.util.TesteArrayList" />
         <item itemvalue="Application.TesteDeArrayDeReferencias" />
-        <item itemvalue="Application.TesteDeArrayContas" />
       </list>
     </recent_temporary>
   </component>
@@ -250,7 +251,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658458282746</updated>
     </task>
-    <option name="localTasksCounter" value="16" />
+    <task id="LOCAL-00016" summary="refactor: metodos da classe integer">
+      <created>1658501903445</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1658501903445</updated>
+    </task>
+    <option name="localTasksCounter" value="17" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -278,6 +286,7 @@
     <MESSAGE value="refactor: arrays list" />
     <MESSAGE value="refactor: metodo equals" />
     <MESSAGE value="refactor: autoboxing" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: autoboxing" />
+    <MESSAGE value="refactor: metodos da classe integer" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: metodos da classe integer" />
   </component>
 </project>
