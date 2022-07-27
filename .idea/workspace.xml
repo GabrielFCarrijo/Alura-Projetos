@@ -4,14 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: ordenando listas e aprendendo sobre collections">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/util/Teste.java" afterDir="false" />
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: lambda">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_io/src/TesteLeitura.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/lorem.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/util/TesteOrdenacao.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/TesteArrayList.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/util/TesteArrayList.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/TesteArrayListEquals.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/util/TesteArrayListEquals.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/TesteOutrosWappers.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/util/TesteOutrosWappers.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/util/TesteWrapperInteger.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/util/TesteWrapperInteger.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,7 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "jdk.selected.JAVA_MODULE": "17",
     "last_opened_file_path": "C:/Users/Gabriel/Desktop/Alura-Projetos-Java/src/main/java/Polimorfismo/br/com/byteBank/util",
-    "project.structure.last.edited": "Global Libraries",
+    "project.structure.last.edited": "Modules",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "preferences.pluginManager"
@@ -56,58 +52,19 @@
       <recent name="C:\Users\Gabriel\Desktop\Alura-Projetos-Java\src\main\java\Polimorfismo\herdado\bytebank-herdado-conta\src\byteBank" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\Gabriel\Desktop\Alura-Projetos-Java\src\main\resources" />
       <recent name="C:\Users\Gabriel\Desktop\Alura-Projetos-Java\src\main\java" />
+      <recent name="C:\Users\Gabriel\Desktop\Alura-Projetos-Java\src\main\java\java_io\src\br\com\java_io" />
       <recent name="C:\Users\Gabriel\Desktop\Alura-Projetos-Java\OrientadoAObjetos\src\main\java" />
       <recent name="C:\Users\Gabriel\Desktop\Alura-Projetos-Java\OrientadoAObjetos\src\main" />
-      <recent name="C:\Users\Gabriel\Desktop\Alura-Projetos-Java\OrientadoAObjetos\src" />
-      <recent name="C:\Users\Gabriel\Desktop\Alura-Projetos-Java\OrientadoAObjetos" />
     </key>
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Teste">
+  <component name="RunManager" selected="Application.java_io.src.TesteLeitura">
     <configuration name="Polimorfismo.br.com.byteBank.util.Exercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.Exercicio" />
-      <module name="Alura-Projetos-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Polimorfismo.br.com.byteBank.util.Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.Teste" />
-      <module name="Alura-Projetos-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Polimorfismo.br.com.byteBank.util.TesteOutrosWappers" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.TesteOutrosWappers" />
-      <module name="Alura-Projetos-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.util.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Polimorfismo.br.com.byteBank.util.TesteWrapperInteger" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.TesteWrapperInteger" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
@@ -132,13 +89,52 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="TesteLeitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="TesteLeitura" />
+      <module name="Alura-Projetos-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value=".*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java_io.src.TesteLeitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_io.src.TesteLeitura" />
+      <module name="Alura-Projetos-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_io.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="java_io.src.br.com.java_io.TesteLeitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_io.src.br.com.java_io.TesteLeitura" />
+      <module name="Alura-Projetos-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="java_io.src.br.com.java_io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.java_io.src.TesteLeitura" />
+        <item itemvalue="Application.java_io.src.br.com.java_io.TesteLeitura" />
+        <item itemvalue="Application.TesteLeitura" />
         <item itemvalue="Application.Teste" />
         <item itemvalue="Application.Polimorfismo.br.com.byteBank.util.Exercicio" />
-        <item itemvalue="Application.Polimorfismo.br.com.byteBank.util.Teste" />
-        <item itemvalue="Application.Polimorfismo.br.com.byteBank.util.TesteOutrosWappers" />
-        <item itemvalue="Application.Polimorfismo.br.com.byteBank.util.TesteWrapperInteger" />
       </list>
     </recent_temporary>
   </component>
@@ -277,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658934776717</updated>
     </task>
-    <option name="localTasksCounter" value="19" />
+    <task id="LOCAL-00019" summary="refactor: lambda">
+      <created>1658949171763</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1658949171763</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -308,6 +311,17 @@
     <MESSAGE value="refactor: metodos da classe integer" />
     <MESSAGE value="refactor: class number" />
     <MESSAGE value="refactor: ordenando listas e aprendendo sobre collections" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: ordenando listas e aprendendo sobre collections" />
+    <MESSAGE value="refactor: lambda" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: lambda" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <breakpoint enabled="true" type="java-exception">
+          <properties class="java.io.FileNotFoundException" package="java.io" />
+          <option name="timeStamp" value="2" />
+        </breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
