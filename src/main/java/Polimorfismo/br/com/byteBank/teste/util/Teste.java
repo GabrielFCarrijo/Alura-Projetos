@@ -1,4 +1,4 @@
-package Polimorfismo.br.com.byteBank.util;
+package Polimorfismo.br.com.byteBank.teste.util;
 
 
 import Polimorfismo.br.com.byteBank.modelo.Cliente;
@@ -10,6 +10,7 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
+import java.util.function.Consumer;
 
 public class Teste {
     public static void main(String[] args) {
@@ -48,39 +49,20 @@ public class Teste {
             System.out.println(conta);
         }
 
-        Collections.sort(lista, new NumeroDaContaComparetor());
-        Collections.shuffle(lista);
-        Collections.reverse(lista);
-
         System.out.println("---------------");
 
-        //NumeroDaContaComparetor contaComparetor = new NumeroDaContaComparetor();
-        TitularDaContaCOmparetor titularDaContaCOmparetor = new TitularDaContaCOmparetor();
-        lista.sort(titularDaContaCOmparetor);
+        //Function Object
+        lista.sort((c1,c2) -> Integer.compare(c1.getNumero(), c2.getNumero()));
 
-        for (Conta conta: lista) {
-            System.out.println(conta);
-        }
-    }
+        Comparator<Conta> comp = (Conta o1, Conta o2) -> {
+            String titular = o1.getTitular().getNome();
+            String titular2 = o2.getTitular().getNome();
 
-}
+            return titular.compareTo(titular2);
+        };
 
-class TitularDaContaCOmparetor implements Comparator<Conta>{
+        lista.forEach(( conta) -> System.out.println(conta + ", " + conta.getTitular().getNome()));
 
-    @Override
-    public int compare(Conta o1, Conta o2) {
-        String titular = o1.getTitular().getNome();
-        String titular2 = o2.getTitular().getNome();
-
-        return titular.compareTo(titular2);
     }
 }
 
-class NumeroDaContaComparetor implements Comparator<Conta> {
-
-    @Override
-    public int compare(Conta c1, Conta c2) {
-
-        return Integer.compare(c1.getNumero(), c2.getNumero());
-    }
-}

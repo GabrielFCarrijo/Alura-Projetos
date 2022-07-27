@@ -1,4 +1,4 @@
-package Polimorfismo.br.com.byteBank.util;
+package Polimorfismo.br.com.byteBank.teste.util;
 
 import Polimorfismo.br.com.byteBank.modelo.Conta;
 import Polimorfismo.br.com.byteBank.modelo.ContaCorrente;
