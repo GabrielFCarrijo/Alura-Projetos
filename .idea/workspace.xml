@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: lambda">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_io/src/TesteLeitura.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/lorem.txt" afterDir="false" />
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: java.io">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_io/src/TesteLeitura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_io/src/TesteLeitura.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -280,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658949171763</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="refactor: java.io">
+      <created>1658954856430</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1658954856430</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -312,7 +318,8 @@
     <MESSAGE value="refactor: class number" />
     <MESSAGE value="refactor: ordenando listas e aprendendo sobre collections" />
     <MESSAGE value="refactor: lambda" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: lambda" />
+    <MESSAGE value="refactor: java.io" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: java.io" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

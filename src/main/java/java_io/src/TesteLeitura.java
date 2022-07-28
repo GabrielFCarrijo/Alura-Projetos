@@ -8,14 +8,16 @@ public class TesteLeitura {
 
         // Fluxo de Entrada com Arquivo
 
-        FileInputStream fis = new FileInputStream("lorem.txt");
+        FileInputStream fis = new FileInputStream("C:\\Users\\Gabriel\\Desktop\\Alura-Projetos-Java\\src\\main\\java\\java_io\\src\\lorem.txt");
         InputStreamReader inputStreamReader = new InputStreamReader(fis);
         BufferedReader bufferedReader = new BufferedReader(inputStreamReader);
 
         String linha = bufferedReader.readLine();
 
-        System.out.println(linha);
-
+        while (linha != null) {
+            System.out.println(linha);
+            linha = bufferedReader.readLine();
+        }
         bufferedReader.close();
     }
 }
