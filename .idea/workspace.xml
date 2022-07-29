@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: java.io">
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: ler linhas">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_io/src/TesteLeitura_Escrita.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_io/src/TesteOutputStream.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_io/src/TesteLeitura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_io/src/TesteLeitura.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/java_io/src/TesteLeitura.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_io/src/TesteInputStream.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,18 +35,18 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "jdk.selected.JAVA_MODULE": "17",
-    "last_opened_file_path": "C:/Users/Gabriel/Desktop/Alura-Projetos-Java/src/main/java/Polimorfismo/br/com/byteBank/util",
-    "project.structure.last.edited": "Modules",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2",
-    "settings.editor.selected.configurable": "preferences.pluginManager"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;17&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/Gabriel/Desktop/Alura-Projetos-Java/src/main/java/Polimorfismo/br/com/byteBank/util&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Gabriel\Desktop\Alura-Projetos-Java\src\main\java\Polimorfismo\br\com\byteBank\util" />
@@ -61,13 +63,13 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.java_io.src.TesteLeitura">
-    <configuration name="Polimorfismo.br.com.byteBank.util.Exercicio" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.util.Exercicio" />
+  <component name="RunManager" selected="Application.TesteLeitura_Escrita">
+    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.util.Teste" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.util.*" />
+          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.util.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -75,12 +77,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.util.Teste" />
+    <configuration name="TesteInputStream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_io.src.TesteInputStream" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.util.*" />
+          <option name="PATTERN" value="java_io.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -101,8 +103,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java_io.src.TesteLeitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_io.src.TesteLeitura" />
+    <configuration name="TesteLeitura_Escrita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_io.src.TesteLeitura_Escrita" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
@@ -129,11 +131,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.java_io.src.TesteLeitura" />
+        <item itemvalue="Application.TesteLeitura_Escrita" />
+        <item itemvalue="Application.TesteInputStream" />
         <item itemvalue="Application.java_io.src.br.com.java_io.TesteLeitura" />
         <item itemvalue="Application.TesteLeitura" />
         <item itemvalue="Application.Teste" />
-        <item itemvalue="Application.Polimorfismo.br.com.byteBank.util.Exercicio" />
       </list>
     </recent_temporary>
   </component>
@@ -286,7 +288,14 @@
       <option name="project" value="LOCAL" />
       <updated>1658954856430</updated>
     </task>
-    <option name="localTasksCounter" value="21" />
+    <task id="LOCAL-00021" summary="refactor: ler linhas">
+      <created>1658977203279</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1658977203279</updated>
+    </task>
+    <option name="localTasksCounter" value="22" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -319,7 +328,8 @@
     <MESSAGE value="refactor: ordenando listas e aprendendo sobre collections" />
     <MESSAGE value="refactor: lambda" />
     <MESSAGE value="refactor: java.io" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: java.io" />
+    <MESSAGE value="refactor: ler linhas" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: ler linhas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
