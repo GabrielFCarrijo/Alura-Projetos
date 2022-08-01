@@ -4,9 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: leitura com scanner">
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: Scanner">
+      <change afterPath="$PROJECT_DIR$/src/main/java/java_io/src/TesteUnicodeEncoding.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/java_io/src/Teste.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/java_io/src/Teste.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -61,7 +61,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.java_io.src.Teste">
+  <component name="RunManager" selected="Application.TesteUnicodeEncoding">
     <configuration name="TesteCopia_Escrita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_io.src.TesteCopia_Escrita" />
       <module name="Alura-Projetos-Java" />
@@ -75,12 +75,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteLeitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="TesteLeitura" />
+    <configuration name="TesteUnicodeEncoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="java_io.src.TesteUnicodeEncoding" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value=".*" />
+          <option name="PATTERN" value="java_io.src.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -129,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteUnicodeEncoding" />
         <item itemvalue="Application.java_io.src.Teste" />
         <item itemvalue="Application.TesteCopia_Escrita" />
         <item itemvalue="Application.java_io.src.TesteInputStream" />
         <item itemvalue="Application.java_io.src.br.com.java_io.TesteLeitura" />
-        <item itemvalue="Application.TesteLeitura" />
       </list>
     </recent_temporary>
   </component>
@@ -314,7 +314,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659318977326</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="refactor: Scanner">
+      <created>1659384275110</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1659384275110</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -351,7 +358,8 @@
     <MESSAGE value="refactor: copia arquivos" />
     <MESSAGE value="refactor: FileWriter e PrintStram" />
     <MESSAGE value="refactor: leitura com scanner" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: leitura com scanner" />
+    <MESSAGE value="refactor: Scanner" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: Scanner" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
