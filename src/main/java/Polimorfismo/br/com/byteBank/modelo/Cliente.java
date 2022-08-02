@@ -1,6 +1,8 @@
 package Polimorfismo.br.com.byteBank.modelo;
 
-public class Cliente {
+import java.io.Serializable;
+
+public class Cliente implements Serializable {
 
     private String nome;
     private String cpf;

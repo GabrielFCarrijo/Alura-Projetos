@@ -1,7 +1,9 @@
 package Polimorfismo.br.com.byteBank.modelo;
 
+import java.io.Serializable;
+
 //new ContaCorrente()
-public class ContaCorrente extends Conta implements Tributavel {
+public class ContaCorrente extends Conta implements Tributavel, Serializable {
 
 	public ContaCorrente(int agencia, int numero) {
 		super(agencia, numero);
