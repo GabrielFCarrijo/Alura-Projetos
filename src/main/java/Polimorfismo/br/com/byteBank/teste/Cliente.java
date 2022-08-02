@@ -1,10 +1,18 @@
-package Polimorfismo.br.com.byteBank.modelo;
 
-public class Cliente {
+package Polimorfismo.br.com.byteBank.teste;
 
+import java.io.Serializable;
+
+public class Cliente implements Serializable {
+
+    private static final long serialVersionUID =9234763286757342L;
     private String nome;
     private String cpf;
     private String profissao;
+
+    public String getNomeCpf(){
+        return  nome + " " + cpf+ " " + profissao;
+    }
 
     public String getNome() {
         return nome;

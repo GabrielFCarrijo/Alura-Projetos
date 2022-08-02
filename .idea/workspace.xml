@@ -5,8 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: Scanner">
-      <change afterPath="$PROJECT_DIR$/src/main/java/java_io/src/TesteUnicodeEncoding.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/Cliente.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteSerializacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/TesteSerializacaoCliente.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/.classpath" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/OrientadoAObjetos/bytebank/.settings/org.eclipse.jdt.core.prefs" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Cliente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,14 +65,30 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="Polimorfismo.br.com.byteBank.teste" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.TesteUnicodeEncoding">
+  <component name="RunManager" selected="Application.TesteSerializacao">
     <configuration name="TesteCopia_Escrita" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="java_io.src.TesteCopia_Escrita" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="java_io.src.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TesteSerializacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.TesteSerializacao" />
+      <module name="Alura-Projetos-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -114,26 +135,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java_io.src.br.com.java_io.TesteLeitura" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_io.src.br.com.java_io.TesteLeitura" />
-      <module name="Alura-Projetos-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_io.src.br.com.java_io.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TesteSerializacao" />
         <item itemvalue="Application.TesteUnicodeEncoding" />
         <item itemvalue="Application.java_io.src.Teste" />
         <item itemvalue="Application.TesteCopia_Escrita" />
         <item itemvalue="Application.java_io.src.TesteInputStream" />
-        <item itemvalue="Application.java_io.src.br.com.java_io.TesteLeitura" />
       </list>
     </recent_temporary>
   </component>
