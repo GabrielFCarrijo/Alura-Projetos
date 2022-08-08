@@ -1,4 +1,4 @@
-package br.com.alura;
+package br.com.alura.gerenciadorCursos;
 
 import java.util.ArrayList;
 import java.util.Collections;

@@ -4,9 +4,11 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: Serializable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TestandoListas.java" afterDir="false" />
+    <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: conhecendo mais sobre listas">
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/gerenciadorCursos/Aula.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/gerenciadorCursos/TestaListaAula.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/br/com/alura/TestandoListas.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/gerenciadorCursos/TestandoListas.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -65,13 +67,26 @@
       <recent name="Polimorfismo.br.com.byteBank.teste" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TestandoListas">
+  <component name="RunManager" selected="Application.TestaListaAula">
     <configuration name="Polimorfismo.br.com.byteBank.teste.io.TesteSerializacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.io.TesteSerializacao" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestaListaAula" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.gerenciadorCursos.TestaListaAula" />
+      <module name="Alura-Projetos-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.gerenciadorCursos.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -118,26 +133,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TesteUnicodeEncoding" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_io.src.TesteUnicodeEncoding" />
-      <module name="Alura-Projetos-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_io.src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestaListaAula" />
         <item itemvalue="Application.TestandoListas" />
         <item itemvalue="Application.TesteDescerializacao" />
         <item itemvalue="Application.Polimorfismo.br.com.byteBank.teste.io.TesteSerializacao" />
         <item itemvalue="Application.TesteSerializacao" />
-        <item itemvalue="Application.TesteUnicodeEncoding" />
       </list>
     </recent_temporary>
   </component>
@@ -339,7 +341,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659469102735</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="refactor: conhecendo mais sobre listas">
+      <created>1659919494289</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1659919494289</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -378,7 +387,8 @@
     <MESSAGE value="refactor: leitura com scanner" />
     <MESSAGE value="refactor: Scanner" />
     <MESSAGE value="refactor: Serializable" />
-    <option name="LAST_COMMIT_MESSAGE" value="refactor: Serializable" />
+    <MESSAGE value="refactor: conhecendo mais sobre listas" />
+    <option name="LAST_COMMIT_MESSAGE" value="refactor: conhecendo mais sobre listas" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
