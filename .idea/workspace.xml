@@ -5,12 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a5243fe3-3920-4177-a278-a95a2d0840f0" name="Changes" comment="refactor: Serializable">
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/io/TesteDescerializacao.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/teste/io/TesteSerializacao.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/br/com/alura/TestandoListas.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Cliente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Cliente.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Conta.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/Conta.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/ContaCorrente.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Polimorfismo/br/com/byteBank/modelo/ContaCorrente.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -69,13 +65,26 @@
       <recent name="Polimorfismo.br.com.byteBank.teste" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.TesteDescerializacao">
+  <component name="RunManager" selected="Application.TestandoListas">
     <configuration name="Polimorfismo.br.com.byteBank.teste.io.TesteSerializacao" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Polimorfismo.br.com.byteBank.teste.io.TesteSerializacao" />
       <module name="Alura-Projetos-Java" />
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Polimorfismo.br.com.byteBank.teste.io.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestandoListas" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="br.com.alura.TestandoListas" />
+      <module name="Alura-Projetos-Java" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="br.com.alura.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -122,26 +131,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="java_io.src.Teste" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="java_io.src.Teste" />
-      <module name="Alura-Projetos-Java" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="java_io.src.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TestandoListas" />
         <item itemvalue="Application.TesteDescerializacao" />
         <item itemvalue="Application.Polimorfismo.br.com.byteBank.teste.io.TesteSerializacao" />
         <item itemvalue="Application.TesteSerializacao" />
         <item itemvalue="Application.TesteUnicodeEncoding" />
-        <item itemvalue="Application.java_io.src.Teste" />
       </list>
     </recent_temporary>
   </component>
@@ -336,7 +332,14 @@
       <option name="project" value="LOCAL" />
       <updated>1659468208546</updated>
     </task>
-    <option name="localTasksCounter" value="27" />
+    <task id="LOCAL-00027" summary="refactor: Serializable">
+      <created>1659469102735</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1659469102735</updated>
+    </task>
+    <option name="localTasksCounter" value="28" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
