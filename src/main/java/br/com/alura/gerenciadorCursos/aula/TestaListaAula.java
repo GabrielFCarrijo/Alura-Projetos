@@ -1,7 +1,8 @@
-package br.com.alura.gerenciadorCursos;
+package br.com.alura.gerenciadorCursos.aula;
+
+import br.com.alura.gerenciadorCursos.aula.Aula;
 
 import java.util.ArrayList;
-import java.util.Collections;
 import java.util.Comparator;
 
 public class TestaListaAula {
